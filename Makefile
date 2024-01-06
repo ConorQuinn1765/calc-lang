@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Werror -Wpedantic -g
-OBJ = main.o
+OBJ = main.o lexer.o
 EXE = calc
 
 $(EXE): $(OBJ)
